@@ -1,0 +1,93 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+.title {
+    margin: 20px; ;
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
+}
+a{
+    color: #4a4aff;
+}
+
+.container {
+    background-color: white;
+    color: #171718;
+    padding-top: 10%;
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+}
+
+.login {
+    margin-right: 0%;
+    padding-left: 50%;
+    overflow: hidden;
+    height: 900px;
+    
+}
+
+
+.campos {
+    padding-left: 30px;
+}
+
+input {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid;
+    border-color: #171718;
+    outline: none;
+    padding-top: 70px;
+    transition: 1s;
+}
+
+input:focus {
+    border-bottom: 2px solid #8c52ff;
+    transition: 1s;
+}
+
+button {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    background-color: #8c52ff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin: 10px;
+    transition: 1s;
+}
+
+button:hover {
+    background-color: #b1b1de;
+    transition: 1s;
+}
+
+.buttons {
+    padding-left: 70px;
+    align-items: center;
+}
+@media screen and (max-width: 600px) {
+    
+}
+.logo img  {
+    width: 350px;
+    height: 350px;
+    margin-top:20% ;
+    margin-left: 25%;
+    left: 0; /* Cambiamos 'right' por 'left' */
+    position: absolute; /* Añadimos 'position: absolute;' para posicionar el div */
+    background-color: transparent;
+    border-radius: 20px;
+    
+}
+.logo {
+    left: 0;
+    width: 51%;
+    height: 100%;
+    position: absolute; /* Añadimos 'position: absolute;' para posicionar el div */
+    background-color:#cae44e;
+    border-radius: 10px;
+}
+

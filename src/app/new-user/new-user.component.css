@@ -1,6 +1,70 @@
+.container{
+    color: #171718;
+    height: 680px;
+}
+.sign{
+    margin-right: 50%;
+    overflow: hidden;
+    height: 100%;
+    width: 50%;
+    background-color: white;
+}
+
 .title{
     color: black ;
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
 }
+
+input{
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    width: 90%;
+    transition: 1s;
+}
+
+input:focus{
+    border-bottom: 2px solid #8c52ff;
+    transition: 1s;
+}
+
 button{
-    background-color: Orange;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    background-color: #8c52ff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin: 10px;
+    transition: 1s;
+}
+button:hover{
+    background-color: #b1b1de;
+    transition: 1s;
+}
+#button{
+    text-align: center;
+}
+.presentation{
+ border-color: #171718;
+}
+a{
+    color: #4a4aff;
+}
+.logo img {
+    width: 350px;
+    height: 350px;
+    margin-top: 20%; 
+}
+.logo {
+    width: 41%;
+    margin-left:10% ;
+    height: 100%;
+    border: 2px solid black;
 }

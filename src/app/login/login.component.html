@@ -1,10 +1,21 @@
-<div>login into miselania</div>
 
-
-<div><a routerLink="/"><button>closes</button></a></div>
-<div>email <input type="email"></div>
-<div>password<input type="password"></div>
-<div>forgot password</div>
-<div><button>login</button></div>
-<div><a routerLink="/new-user"><button>new user</button></a></div>
-<div><a routerLink="/forgot-password"><button>forgot password</button></a></div>
+<div class="login">
+    <div class="logo">
+        <img src="https://firebasestorage.googleapis.com/v0/b/felipe-proyectos.appspot.com/o/javascript%2Fimagenes%2F34611.png?alt=media&token=c051a515-5913-4066-aee6-0ede663bf7cc">
+    </div>
+    <div class="container">
+        <div class="title">Login into Miselania</div>
+        <div class="campos">
+            <input type="email" [(ngModel)]="email" placeholder="Email">
+            <br>
+            <input type="password" [(ngModel)]="password" placeholder="Password">
+        </div>
+            {{login.email}}
+        <div class="buttons">
+            <button (click)="callLogin()">Login</button>
+            <a routerLink="/new-user"><button>New User</button></a><br>
+            <p>Perdiste tu contraseña <a routerLink="/forgot-password">Forgot Password</a></p>
+        </div>
+    </div>
+    
+</div>

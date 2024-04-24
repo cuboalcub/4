@@ -1,9 +1,14 @@
-<div>
+<div class = "container">
+<div class="logo"><img src="https://firebasestorage.googleapis.com/v0/b/felipe-proyectos.appspot.com/o/javascript%2Fimagenes%2F34611.png?alt=media&token=c051a515-5913-4066-aee6-0ede663bf7cc"></div>
+<div class = "sign">
+<a routerLink="/login"><button id = "back"><-</button></a>
 <div class = "title">Sign up for <b>Miselania</b></div>
-<div>email <input type="email"></div>
-<div>name <input type="text"></div>
-<div>last name <input type="text"></div>
-<div>password <input type="password"></div> 
-<div><input type="checkbox"> I accept the <a routerLink="/terms-and-conditions">terms and conditions</a></div>
-<div><a routerLink="/login"><button>Continue</button></a></div>
+<div> <input type="email" placeholder="Email" [(ngModel)] = "myUser.email" ></div>
+<div> <input type="text" placeholder="Name" [(ngModel)]="myUser.name"></div>
+<div> <input type="text" placeholder="Last Name" [(ngModel)] = "myUser.last_name"></div>
+<div> <input type="password" placeholder="Password" [(ngModel)]="myUser.password"></div> 
+<input type="checkbox">I accept the <a routerLink="/terms-and-conditions">terms and conditions</a>
+<div id = "button"><button (click)="createUser()">Continue</button></div>
+</div>
+
 </div>

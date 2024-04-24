@@ -4,10 +4,12 @@ import { LoginComponent } from './login/login.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { ForgotPaswordComponent } from './forgot-pasword/forgot-pasword.component';
 import { NewUserComponent } from './new-user/new-user.component';
+import { ResetPasswordComponent } from "./reset-password/reset-password.component";
 export const routes: Routes = [
     { path: '', component: LandingPageComponent },
     { path: 'home', component: HomeComponent },
     { path: 'login', component: LoginComponent },
     { path: 'new-user', component: NewUserComponent },
-    { path: 'forgot-password', component: ForgotPaswordComponent }
+    { path: 'forgot-password', component: ForgotPaswordComponent },
+    { path: 'reset-password', component: ResetPasswordComponent }
  ];

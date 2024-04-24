@@ -1,8 +1,7 @@
-<div>login into miselania</div>
 
-
-<div><a routerLink="/"><button>closes</button></a></div>
-<div>email <input type="email"></div>
-<div>forgot password</div>
-<div><button>send email</button></div>
-<div><a routerLink="/forgot-password"><button>forgot password</button></a></div>
+<div class = "container">
+    <a routerLink="/login"><button id = "back"><-</button></a>
+    <h1>Forgot Password</h1>
+<input type="email" placeholder="Email" [(ngModel)] = "email" >
+<button (click)="resetPassword()">send email</button>
+</div>

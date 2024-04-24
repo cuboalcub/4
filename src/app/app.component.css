@@ -1,32 +1,29 @@
-.title{
-    color: white;
-    text-align: center;
-    font-size: 60px;
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: auto;
-    border-bottom: 2px solid white;
-    padding-bottom: 20px;
-    border-bottom-color: #ffabab;
-    background-color: #b9b9b9;
-}
-nav{
-    text-align: center;
-}
+/* @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); */
 
-nav ul li{
-    display: inline;
-    padding: 2%;
-}
-ul{
-    list-style-type: none;
-    background-color: aquamarine;
-    background-size: contain;
-}
-button{
-    background-color: #ffabab;
-    color: white;
-}
-button:hover{
-    background-color: #b9b9b9;
-}
+.title{
+    background: #fff;
+    color: #8c52ff ;
+    top: 0%;
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    font-size: 30px;
+    font-family: "Russo One", sans-serif;
+    display: flex;
+    transition: 1s;
+ } 
+
+ .title h1{
+    font-family: 'Russo One', sans-serif;
+    font-size: 60px;
+    padding-left: 50px;
+    margin: 0;
+    color: #8c52ff;
+    transition: 1s;
+ }
+
+ .title h1:hover{
+    color: #b1b1de;
+    transition: 1s;
+ }
