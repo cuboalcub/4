@@ -1,29 +1,17 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); */
-
-.title{
-    background: #fff;
-    color: #8c52ff ;
-    top: 0%;
-    width: 100%;
-    margin: 0;
-    padding: 0px;
-    font-size: 30px;
-    font-family: "Russo One", sans-serif;
-    display: flex;
-    transition: 1s;
- } 
-
- .title h1{
-    font-family: 'Russo One', sans-serif;
-    font-size: 60px;
-    padding-left: 50px;
-    margin: 0;
+header{
+   background-color: white;
+   font-family:'Arial', Courier, monospace;
+   font-size: 50px;
+   color: #8c52ff;
+   text-align: center;
+   width: 100%;;
+}
+b {
     color: #8c52ff;
-    transition: 1s;
- }
+   transition: 500ms;
+   }
 
- .title h1:hover{
+b:hover{
     color: #b1b1de;
-    transition: 1s;
- }
+    transition: 200ms;
+}

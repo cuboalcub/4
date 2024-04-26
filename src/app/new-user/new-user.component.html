@@ -3,12 +3,11 @@
 <div class = "sign">
 <a routerLink="/login"><button id = "back"><-</button></a>
 <div class = "title">Sign up for <b>Miselania</b></div>
-<div> <input type="email" placeholder="Email" [(ngModel)] = "myUser.email" ></div>
-<div> <input type="text" placeholder="Name" [(ngModel)]="myUser.name"></div>
-<div> <input type="text" placeholder="Last Name" [(ngModel)] = "myUser.last_name"></div>
-<div> <input type="password" placeholder="Password" [(ngModel)]="myUser.password"></div> 
+ <input type="email" placeholder="Email" [(ngModel)] = "myUser.email" >
+ <input type="text" placeholder="Name" [(ngModel)]="myUser.name">
+ <input type="text" placeholder="Last Name" [(ngModel)] = "myUser.last_name">
+ <input type="password" placeholder="Password" [(ngModel)]="myUser.password">
 <input type="checkbox">I accept the <a routerLink="/terms-and-conditions">terms and conditions</a>
 <div id = "button"><button (click)="createUser()">Continue</button></div>
 </div>
-
 </div>

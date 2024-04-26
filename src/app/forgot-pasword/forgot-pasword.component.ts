@@ -1,25 +1,33 @@
 import { Component } from '@angular/core';
-import { RouterLink, RouterOutlet,RouterLinkActive } from '@angular/router';
-import { FormsModule } from '@angular/forms';
+import { RouterLink } from '@angular/router';
+import {FormsModule} from "@angular/forms";
 import { UserService } from '../services/user.service';
-import { User } from '../models/user/User';
+import { Router } from '@angular/router';
+
 
 @Component({
-  selector: 'app-forgot-pasword',
+  selector: 'app-forgot-password',
   standalone: true,
-  imports: [RouterLink, RouterOutlet,RouterLinkActive, FormsModule],
+  imports: [RouterLink, FormsModule],
   templateUrl: './forgot-pasword.component.html',
   styleUrl: './forgot-pasword.component.css'
 })
 export class ForgotPaswordComponent {
-
-  constructor(private userService: UserService) 
-  { }
-  email: String = "";
-  myValidatedUser: User = new User();
-
+  email:String = "";
+  constructor( private userService: UserService,
+    private router: Router)
+{ 
+}
   resetPassword(){
     console.log(this.email);
-    this.myValidatedUser = this.userService.validateUser(this.email);
+    
+    var myValidUser = this.userService.resetPassword(
+        this.email
+       );
+
+    if (myValidUser.id != 0)
+        this.router.navigate(['/']);
+
+     console.log(myValidUser);
   }
 }

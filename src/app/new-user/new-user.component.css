@@ -1,22 +1,27 @@
-.container{
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: #171718;
     height: 680px;
 }
-.sign{
-    margin-right: 50%;
+.sign {
+    order: 1;
+    margin: 0 auto;
     overflow: hidden;
     height: 100%;
     width: 50%;
     background-color: white;
+    top: 0;
 }
 
-.title{
+.title {
     color: black ;
     font-family: 'Russo One', sans-serif;
     font-size: 50px;
 }
 
-input{
+input {
     font-size: 20px;
     margin: 10px;
     padding: 10px;
@@ -29,12 +34,12 @@ input{
     transition: 1s;
 }
 
-input:focus{
+input:focus {
     border-bottom: 2px solid #8c52ff;
     transition: 1s;
 }
 
-button{
+button {
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
     background-color: #8c52ff;
@@ -44,27 +49,25 @@ button{
     margin: 10px;
     transition: 1s;
 }
-button:hover{
+
+button:hover {
     background-color: #b1b1de;
     transition: 1s;
 }
-#button{
+
+#button {
     text-align: center;
 }
-.presentation{
- border-color: #171718;
-}
-a{
+
+
+a {
     color: #4a4aff;
 }
-.logo img {
-    width: 350px;
-    height: 350px;
-    margin-top: 20%; 
-}
+
 .logo {
-    width: 41%;
-    margin-left:10% ;
+    order:2;
     height: 100%;
-    border: 2px solid black;
+    background-color: #d60000;
+    border-radius: 20px;
+    width: 51%; /* Ajusta el ancho de cada elemento para que ocupen casi la mitad del contenedor */
 }
