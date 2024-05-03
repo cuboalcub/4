@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
+    color: #8c52ff;
+    margin-bottom: 40px;
+}
+table{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: white;
+    
+}
+table td{
+    padding: 20px;
+    border: 1px solid #8c52ff;
+    color: white;
+    background-color: #8c52ff;
+    border-radius: 10px;
+    transition: 500ms;
+}
+table tr:hover td {
+    padding: 20px;
+    background-color: #f7f7f7;
+    color: #8c52ff;
+    transition: 500ms;
+}
+table th{
+    padding: 20px;
+}
+
+
+
+ 

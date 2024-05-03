@@ -1,0 +1,88 @@
+aside{
+    background-color: #bfaaef;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    }
+
+aside ul{
+    list-style: none;
+    text-align: center;
+}
+
+
+aside ul li{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: 1000ms;
+    background: #8c52ff;
+}
+
+aside ul li:hover{
+    background-color: white;
+    color: #8c52ff;
+    transition: 700ms;
+}
+main{
+    color: rgb(18, 12, 12);
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    align-items: center;}
+main table th{
+    background-color: #8c52ff;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    border: #8c52ff 1px solid;
+}
+main table td{
+    border: #8c52ff 1px solid;
+    background-color: #bfaaef;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+main table{
+    border: #8c52ff 1px solid;
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+}
+main h1{
+    font-size: 50px;
+    color: #000000;
+    background-color: #bfaaef;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 50px;
+    transition: 1s;
+}
+main h1:hover{
+    color: #8a57ff;
+    transition: 1s;
+}
+main table caption{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #8c52ff;
+    color: white;
+    border-radius: 20px;
+}
+
+main table tr:hover td {
+    background-color: #f7f7f7;
+    color: #8c52ff;
+    transition: 500ms;
+}
+
+main table tr:hover th {
+    background-color: #f7f7f7;
+    color: #8c52ff;
+    transition: 500ms;
+}

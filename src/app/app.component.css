@@ -1,10 +1,13 @@
 header{
    background-color: white;
+   
    font-family:'Arial', Courier, monospace;
    font-size: 50px;
    color: #8c52ff;
    text-align: center;
    width: 100%;;
+   top: 0;
+   left: 0 ;
 }
 b {
     color: #8c52ff;

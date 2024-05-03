@@ -3,5 +3,4 @@ export class Producto {
     nombre: String = "";
     stock: number = 0;
     precio: number = 0;
-    imagen: String = "";
 }

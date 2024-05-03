@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); */
 
 .presentation{
-    color: #000;
+    color: #ffffff;
     width: 40%;
     position: relative;
     margin: 0;
@@ -39,13 +39,13 @@
     font-size: 60px;
     padding-left: 50px;
     margin: 0;
-    color: #171718;
+    color: #ffffff;
  }
  .presentation p{
     font-size: 35px;
     padding-left: 50px;
     font-family: 'Raleway', sans-serif;
-    color: #171718;
+    color: #f4f4ff;
     margin-top: 0;
 
  }

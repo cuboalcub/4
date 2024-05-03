@@ -1,2 +1,5 @@
-<p>producto works!</p>
- 
+<div>
+    <p *ngFor="let producto of arrProductos; let i = index">
+        {{producto.id}} - {{producto.nombre}} - {{producto.stock}} - {{producto.precio}}
+    </p>
+</div>

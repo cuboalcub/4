@@ -16,7 +16,7 @@ export class LoginComponent {
   constructor(private userService: UserService, 
               private router: Router
     ) 
-    { }
+    { }//
     email: String = "";
     password: String = "";
     login: Token = new Token() ;

@@ -17,7 +17,7 @@ export class UserService {
 
     var myToken = new Token();
     //call fake api
-    if(myCredential.email == "dani@gmail.com" && myCredential.password == "safcli")
+    if(myCredential.email == "admin" && myCredential.password == "admin")
       {
         myToken.id="200"
         myToken.user = "dani"
