@@ -5,6 +5,11 @@ h1{
     color: #8c52ff;
     margin-bottom: 40px;
 }
+.table{
+    width: 100%;
+    max-height: 600px;
+    overflow-y: auto;
+}
 table{
     width: 100%;
     margin: 0 auto;
@@ -32,6 +37,28 @@ table th{
     padding: 20px;
 }
 
+button{
+    background-color: #8c52ff;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    color: white;
+    transition: 500ms;
+}
 
-
- 
+button:hover{
+    color: black;
+    background-color: white;
+    border-bottom: 2px solid #8c52ff;
+    transition: 500ms;
+}
+.buttons{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

@@ -8,12 +8,12 @@
         <th>Direccion</th>
         <th>Total</th>
     </tr>
-    <tr>
-        <td>Dato 1</td>
-        <td>Dato 2</td>
-        <td>Dato 3</td>
-        <td>Dato 4</td>
-        <td>Dato 5</td>
+    <tr *ngFor="let deudor of arrDeudores">
+        <td>{{deudor.nombre}}</td>
+        <td>{{deudor.fecha}}</td>
+        <td>{{deudor.detalles}}</td>
+        <td>{{deudor.direccion}}</td>
+        <td>{{deudor.total}}</td>
     </tr>
     <tr>
 </table>

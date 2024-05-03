@@ -1,0 +1,20 @@
+<h1>Proveedores</h1>
+<table provedores>
+    <tr>
+        <th>Nombre de la empresa</th>
+        <th>Fecha de surtir</th>
+        <th>Telefono</th>
+        
+    </tr>
+    <tr *ngFor="let proveedor of arrproveedor">
+        <td>{{proveedor.nombre}}</td>
+        <td>{{proveedor.fecha_surtir}}</td>
+        <td>{{proveedor.telefono}}</td>
+    </tr>
+    <tr>
+</table>
+<div class = "botons">
+    <button>Agregar proveedor</button>
+    <button>Modificar provedor</button>
+    <button>Eliminar Provedor</button>
+</div>

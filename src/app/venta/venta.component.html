@@ -2,6 +2,7 @@
 <h1>
     Venta de productos
 </h1>
+<div class="table">
 <table border="1">
     <caption>Ventas</caption>
     <tr>
@@ -11,11 +12,17 @@
         <th>Cantidad</th>
         <th>Total</th>
     </tr>
-    <tr>
-        <td>Dato 1</td>
-        <td>Dato 2</td>
-        <td>Dato 3</td>
-        <td>Dato 4</td>
-        <td>Dato 5</td>
+    <tr *ngFor="let venta of arrVentas">
+        <td>{{venta.nombre}}</td>
+        <td>{{venta.precio}}</td>
+        <td>{{venta.presentacion}}</td>
+        <td>{{venta.cantidad}}</td>
+        <td>{{venta.total}}</td>
     </tr>
     <tr>
+</table>
+</div>
+<div class="buttons">
+<button>Realizar Venta</button>
+<button>Borrar Venta</button>
+</div>

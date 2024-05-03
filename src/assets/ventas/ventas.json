@@ -2,25 +2,23 @@
     "id": 1,
     "nombre": "Fritos sal bolsa normal",
     "precio": 0,
-    "image": "",
     "presentacion": "",
-    "stock": 0
+    "cantidad": 0,
+    "total": 0
 },
 {
     "id": 1,
     "nombre": "Fritos sal bolsa normal",
     "precio": 0,
-    "image": "",
     "presentacion": "",
-    "stock": 0
+    "cantidad": 0,
+    "total": 0
 },
 {
     "id": 1,
     "nombre": "Fritos sal bolsa normal",
     "precio": 0,
-    "image": "",
     "presentacion": "",
-    "stock": 0
-}
-
-]
+    "cantidad": 0,
+    "total": 0
+}]

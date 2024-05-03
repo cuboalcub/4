@@ -1,0 +1,14 @@
+[{
+    "id": 1,
+    "nombre": "sabritas",
+    "direccion": "213 calle 23-23",
+    "fecha_surtir": "10/10/2010",
+    "telefono": "1413223"
+},
+{
+    "id": 1,
+    "nombre": "barcel",
+    "direccion": "asadasd",
+    "fecha_surtir": "10/10/2010",
+    "telefono": "20172001782"
+}]

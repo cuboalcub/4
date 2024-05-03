@@ -2,8 +2,11 @@
 <ul>
     <a routerLink="/venta" routerLinkActive="active" ariaCurrentWhenActive="page"><li>Venta</li></a>
     <a routerLink="/deudores" routerLinkActive="active" ariaCurrentWhenActive="page"><li>Deudores</li></a>
+    <a routerLink="/proveedor" routerLinkActive="active" ariaCurrentWhenActive="page"><li>Proveedores</li></a>
     <a routerLink="/reportes" routerLinkActive="active" ariaCurrentWhenActive="page"><li>Reportes</li></a>
     <a routerLink="/configuracion" routerLinkActive="active" ariaCurrentWhenActive="page"><li>Configuracion</li></a>
+
+
 </ul>
 </aside>
 <main>  
@@ -17,19 +20,12 @@
             <th>Imagen</th>
             <th>Presentacion</th>
         </tr>
-        <tr>
-            <td>Dato 1</td>
-            <td>Dato 2</td>
-            <td>Dato 3</td>
-            <td>Dato 4</td>
-            <td>Dato 5</td>
-        </tr>
-        <tr>
-            <td>Dato 4</td>
-            <td>Dato 5</td>
-            <td>Dato 6</td>
-            <td>Dato 7</td>
-            <td>Dato 8</td>
+        <tr *ngFor = "let producto of arrProductos">
+            <td>{{producto.nombre}}</td>
+            <td>{{producto.cantidad}}</td>
+            <td>{{producto.precio}}</td>
+            <td>{{producto.imagen}}</td>
+            <td>{{producto.presentacion}}</td>
         </tr>
     </table>
 </main>

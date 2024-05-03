@@ -10,7 +10,8 @@ import { VentaComponent } from './venta/venta.component';
 import { DeudoresComponent } from './deudores/deudores.component';
 import { ReporteComponent } from './reporte/reporte.component';
 import { ConfiguracionComponent } from './configuracion/configuracion.component';
-
+import { ProveedoresComponent } from './proveedores/proveedores.component';
+import { CalendarComponent } from './calendar/calendar.component';
 export const routes: Routes = [
     { path: '', component: LandingPageComponent },
     { path: 'home', component: HomeComponent },
@@ -22,5 +23,7 @@ export const routes: Routes = [
     { path: 'deudores', component: DeudoresComponent },
     { path: 'reportes', component: ReporteComponent },
     { path: 'configuracion', component: ConfiguracionComponent },
-    { path: 'venta', component: VentaComponent }
+    { path: 'venta', component: VentaComponent },
+    { path: 'proveedor', component: ProveedoresComponent },
+    { path: 'calendar', component: CalendarComponent }
  ];
